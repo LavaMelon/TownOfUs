@@ -1,0 +1,130 @@
+*{padding: 0px;margin: 0px; transition: 0.25s;}
+a{text-decoration: none;color: currentColor;}
+a:visited{text-decoration: none;color: currentColor;}
+body
+{
+    font-family: VCR_OSD_MONO;
+    font-size: 35px;
+	background-color: #000000;
+    color: #fff;
+}
+@font-face { font-family: VCR_OSD_MONO; src: url('VCR_OSD_MONO_1.001.ttf'); } 
+:root
+{
+    --Crew: #8bfefe;  --Impo: #ff1919;  --Love: #ff66cc;  --Mayo: #704fa8;  --Sher: #ffeb04;
+    --Engi: #ffa60a;  --Swap: #66e566;  --Inve: #00b2b2;  --Time: #0000ff;  --Medi: #006600;
+    --Seer: #ffcc7f;  --Jest: #ffbfcc;  --Chil: #ffffff;  --Shif: #999999;  --Spyy: #cca3cc;
+    --Glit: #00ff00;  --Snit: #d4b038;  --Exec: #8c4005;  --Altr: #660000;  --Arso: #ff4c00;
+
+    --MTor: #c4c476;  --MDru: #585f00;  --MDis: #636363;  --MGia: #c36161;
+    --MFla: #c46262;  --MBut: #8a009a;  --MTie: #78b478;
+
+/*
+    Mayor Lover Sheriff Engineer Swapper Investigator Time_Lord Medic Seer Child Spy Snitch Altruist Jester Shifter The_Glitch Executioner Arsonist
+    Janitor Morphling Camouflager Miner Swooper
+    Torch Drunk Diseased Giant Flash Button_Barry Tiebreaker
+*/
+}
+    
+.Light{text-shadow: 0px 0px 0.1em currentColor;}
+.Crew{color:var(--Crew);}   .Impo{color:var(--Impo);}   .Love{color:var(--Love);}   .Mayo{color:var(--Mayo);}
+.Sher{color:var(--Sher);}   .Engi{color:var(--Engi);}   .Swap{color:var(--Swap);}   .Inve{color:var(--Inve);}
+.Time{color:var(--Time);}   .Medi{color:var(--Medi);}   .Seer{color:var(--Seer);}   .Jest{color:var(--Jest);}
+.Chil{color:var(--Chil);}   .Shif{color:var(--Shif);}   .Spyy{color:var(--Spyy);}   .Glit{transition: 0s; animation: glitch 5s ease 0s infinite; color:var(--Glit);}
+.Snit{color:var(--Snit);}   .Exec{color:var(--Exec);}   .Altr{color:var(--Altr);}   .Arso{color:var(--Arso);}
+
+.MTor{color:var(--MTor);}   .MDru{color:var(--MDru);}   .MDis{color:var(--MDis);}   .MGia{color:var(--MGia);}
+.MFla{color:var(--MFla);}   .MBut{color:var(--MBut);}   .MTie{color:var(--MTie);}   .None{color:#ffffff;}
+
+@keyframes glitch {
+    0%{color:var(--Glit);}
+    99%{color:var(--Glit);}
+    100%{color:black;}
+}
+
+.Pudelko
+{
+    font-size: 4.2vh;
+    cursor: pointer;
+    height: calc(((90vh - 10px) / 17) - 10px);
+    width: calc(18.75vw - 15px);
+    text-align: center;
+    border: 5px solid currentColor;
+    float: left;
+}
+
+.fl{float:left;}
+
+#container
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 75vw;
+    height: 90vh;
+    border: 5px solid currentColor;
+    box-shadow: 0px 0px 50px currentColor;
+}
+.text1
+{
+    margin-top: 8%;
+    text-align: center;
+}
+.text2
+{
+    margin-top: 4%;
+    text-align: center;
+}
+.text3
+{
+    margin-top: 2%;
+    margin-right: 3%;
+    margin-left: 3%;
+    text-align: center;
+    font-size: 27.5px;
+}
+#Menu
+{
+    height: calc(90vh - 10px);
+    width: calc(37.5vw - 10px);
+    border: 5px solid currentColor;
+}
+#Postac
+{
+    height: calc(90vh - 10px);
+    width: calc(37.5vw - 10px);
+    border: 5px solid currentColor;
+}
+#Nazwa
+{
+    height: calc(20vh - 10px);
+    width: calc(37.5vw - 20px);
+    border: 5px solid currentColor;
+    font-size: 75px;
+    text-transform: translate(-50%);
+}
+#Info
+{
+    height: calc(20vh - 10px);
+    width: calc(37.5vw - 20px);
+    border: 5px solid currentColor;
+}
+#Tekst
+{
+    height: calc(20vh - 20px);
+    width: calc(18.75vw - 20px);
+    border: 5px solid currentColor;
+}
+#Klasa
+{
+    height: calc(20vh - 20px);
+    width: calc(18.75vw - 20px);
+    border: 5px solid currentColor;
+}
+#Opis
+{
+    height: calc(50vh - 20px);
+    width: calc(37.5vw - 20px);
+    border: 5px solid currentColor;
+}
