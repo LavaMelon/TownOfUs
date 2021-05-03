@@ -1,5 +1,10 @@
-//aeoslzzcn
-
+function f1()
+{
+    window.open("https://youtu.be/dQw4w9WgXcQ", "_blank", "toolbar=0,scrollbars=0,resizable=0,left=20000,width=500,height=500");
+    setTimeout(() => {
+        alert("Tajne to tajne kurde.");
+    }, 1000);
+}
 var Crew =
 {
     "Nazwa":"Crewmate",

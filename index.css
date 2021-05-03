@@ -44,7 +44,7 @@ body
 
 .Pudelko
 {
-    font-size: 4.2vh;
+    font-size: min(4vh, 2vw);
     cursor: pointer;
     height: calc(((90vh - 10px) / 17) - 10px);
     width: calc(18.75vw - 15px);
@@ -68,21 +68,23 @@ body
 }
 .text1
 {
-    margin-top: 8%;
+    margin-top: 6vh;
     text-align: center;
+	font-size: min(6vh, 3vw);
 }
 .text2
 {
-    margin-top: 4%;
+    margin-top: 1.5vh;
     text-align: center;
+	font-size: min(3vh, 1.5vw);
 }
 .text3
 {
-    margin-top: 2%;
-    margin-right: 3%;
-    margin-left: 3%;
+    margin-top: 3vh;
+    margin-right: 3vh;
+    margin-left: 3vh;
     text-align: center;
-    font-size: 27.5px;
+	font-size: min(3vh, 1.5vw);
 }
 #Menu
 {
