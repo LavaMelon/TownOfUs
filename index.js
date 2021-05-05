@@ -90,7 +90,7 @@ var Seer =
     "Nazwa":"Seer",
     "Klasa":"Crewmate",
     "Tekst":"Investigate roles",
-    "Opis":"Czlonek zalogi, ktory moze ujawniac role innych graczy. Na podstawie ustawien serr moze dowiedziec sie, czy dana rola jest dobra, zla czy neutralna, albo moze dowiedziec sie, jaka jest sama rola.",
+    "Opis":"Czlonek zalogi, ktory moze ujawniac role innych graczy. Na podstawie ustawien seer moze dowiedziec sie, czy dana rola jest dobra, zla czy neutralna, albo moze dowiedziec sie, jaka jest sama rola.",
     "Kolor":"Seer"
 }
 var Chil = 
@@ -114,7 +114,7 @@ var Snit =
     "Nazwa":"Snitch",
     "Klasa":"Crewmate",
     "Tekst":"Complete all your tasks to discover the Impostors",
-    "Opis":"Moze otrzymac strzaly skierowane w strone Oszustow, gdy wszystkie ich zadania zostana ukonczone. Nazwiska oszustow rowniez pojawia sie na ich ekranie w kolorze czerwonym. Na podstawie ustawien gry znicz moze nie wiedziec, kim jest, dopoki nie zostanie mu jedno zadanie. Jednak gdy zostalo im tylko jedno zadanie, oszusci otrzymuja strzale skierowana w strone znicza.",
+    "Opis":"Moze otrzymac strzaly skierowane w strone Oszustow, gdy wszystkie ich zadania zostana ukonczone. Nazwiska oszustow rowniez pojawia sie na ich ekranie w kolorze czerwonym. Na podstawie ustawien gry snitch moze nie wiedziec, kim jest, dopoki nie zostanie mu jedno zadanie. Jednak gdy zostalo im tylko jedno zadanie, oszusci otrzymuja strzale skierowana w strone snitch.",
     "Kolor":"Snit"
 }
 var Altr = 
@@ -258,7 +258,7 @@ var MTie =
     "Nazwa":"Tiebreaker",
     "Klasa":"Modifier",
     "Tekst":"(dodatek do roli)",
-    "Opis":"Nie moglem znalesc informacji...",
+    "Opis":"Kiedy na dwie osoby podczas glosowania jest taka sama liczba glosow, w tedy osoba na ktora zaglosowal Tiebreaker zostaje wyrzucona.",
     "Kolor":"MTie"
 }
 var None=
